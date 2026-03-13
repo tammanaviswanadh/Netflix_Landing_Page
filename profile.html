@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Profile</title>
+    <style>
+         body{
+            background-color: black;
+        }
+        .parent{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: auto;
+            flex-wrap: wrap;
+        }
+       
+        .n1{
+            font-size: 50px;
+            font-weight: bold;
+            color: red;
+            font-family: 'Arial', sans-serif;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        .who{
+            font-size: 50px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            font-family: "Helvetica";
+        
+        }
+        .profile{
+           
+            text-align: center;
+        }
+        .profile img{
+            width: 180px;
+            height: 180px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .profile a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin-top: 8px;
+            font-family: "Helvetica";
+            font-size: 18px;
+        }
+
+         .profile{
+            transition: transform.2s;
+        }
+        
+        .profile:hover{
+            transform: scale(1.1);
+        }
+
+
+        .container2 {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .container2 button {
+            width: 200px;
+            padding: 10px;
+            background-color: #3F3838;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="n1">
+            <p>NETFLIX</p>
+        </div>
+
+        <div class="who">
+            <p>Who's Watching?</p>
+        </div>
+
+    <div class="parent">
+
+        <div class="profile">
+
+            <a href="./Content.html"><img src="./profile1.jpg" alt=""></a>
+
+            <a href="./Content.html">profile 1</a>
+
+        </div>
+
+        <div class="profile">
+            <a href="./Content.html"><img src="./profile2.jpg" alt=""></a>
+
+            <a href="./Content.html">Profile 2</a>
+        </div>
+
+        <div class="profile">
+            <a href="./Content.html"><img src="./profile3.jpg" alt=""></a>
+
+            <a href="./Content.html">Profile 3</a>
+        </div>
+
+        <div class="profile">
+            <a href="./Content.html"><img src="./profile4.jpg" alt=""></a>
+
+            <a href="./Content.html">Profile 4</a>
+        </div>
+
+        <div class="profile">
+            <a href="./Content.html"><img src="./add.png" alt=""></a>
+
+            <a href="./Content.html">Add</a>
+        </div>
+    </div>
+
+    <div class="container2">
+            <button>Manage Profiles</button>
+        </div>
+    
+</body>
+</html>
